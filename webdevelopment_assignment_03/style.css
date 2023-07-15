@@ -1,0 +1,244 @@
+    
+
+
+/* UNIVERSAL SELECTOR */
+
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+    
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ---------------------------------- */
+/* ------------ HEADER PART---------- */
+/* ---------------------------------- */
+
+/* NAVIGATION PART */
+
+/* LOGO */
+
+.logo{
+    line-height: 25px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #0683f8;
+
+    
+ }
+ .go{
+    position: relative;
+    right: 3px;
+
+ }
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    margin: 10px;
+    padding:4px 8px;
+
+ }   
+ .menus{
+    display: flex;
+    gap: 50px;
+    color: #ffffff;
+
+
+} 
+
+nav .menus li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+.hamburger{
+    line-height: 4px;
+    display: none;
+    color: #ffffff;
+}
+ 
+button{
+    padding:4px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0683f8;
+    border-radius: 7px;
+    text-align: center;
+
+} 
+
+
+/* LEFT SIDE HERO SECTION  */
+/* BANNER INTRODUCTION */
+
+.card{
+    color:#0683f8;
+}
+
+ .banner_intro h2{
+    font-size: 60px;
+    font-weight: 900;
+}  
+
+.banner_intro{
+    margin: 87px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+section{
+    margin-top: 10px;
+}
+.banner_intro p{
+    margin-top: 30px;
+}
+
+.bank_logo{
+    margin-top: 20px;
+
+}
+
+video{
+    position: relative;
+    left: 700px; 
+    bottom: 500px;
+   }    
+
+/* ---------------------------------------- */
+/* ------------- SMALL DEVICE ------------- */
+/* ---------------------------------------- */
+
+
+@media screen and (max-width:768px) {
+ 
+    /*  UNIVERSAL SELECTOR */
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+   
+
+  .logo{
+    line-height: 25px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #0683f8;
+
+    
+ }
+ .go{
+    position: relative;
+    right: 3px;
+
+ }
+ 
+
+ .hamburger{
+    line-height: 4px;
+    display: block;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    margin: 10px;
+    padding:4px 8px;
+
+ }   
+ .menus{
+    display: flex;
+    gap: 50px;
+    color: #ffffff;
+
+
+} 
+
+nav .menus li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    display:none;
+    
+}
+
+
+ 
+button{
+    padding:4px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0683f8;
+    border-radius: 7px;
+    text-align: center;
+    display: none;
+
+} 
+
+
+/* LEFT SIDE HERO SECTION  */
+/* BANNER INTRODUCTION */
+
+.card{
+    color:#0683f8;
+}
+
+ .banner_intro h2{
+    font-size: 60px;
+    font-weight: 900;
+}  
+
+.banner_intro{
+    position: relative;
+    left: 20px;
+    bottom: 100px;
+}
+
+.banner_intro{
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+
+.banner_intro p{
+    margin-top: 30px;
+}
+
+.bank_logo{
+    margin-top: 20px;
+
+}
+
+/* RIGHT SIDE CONTENT */
+
+video{
+    position: relative;
+    left: 0px; 
+    bottom: 70px;
+}
+
+}
+
+
+    

@@ -1,0 +1,121 @@
+/* UNIVERSAL SELECTOR */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* STUDENT DASHBOARD*/
+
+h2{
+    margin: 10px;
+
+}
+
+/* TABLE CONTAINER */
+
+.table_container{
+    border: 4px solid #000000;
+    color: aliceblue;
+    background-color:#000000c9;
+    width: 900px;
+    height: 600px;
+    margin: 50px;
+    text-align: left;   
+}
+
+/* TABLE */
+
+table{
+    margin: 50px;
+    height: 450px;
+    width: 800px;
+    border-collapse: collapse;
+
+}
+
+table tr{
+    border: 1px solid #ffffff;
+}
+
+table th, td{
+    padding: 10px;
+}
+
+/* SMALL DEVICE */
+
+@media screen and (max-width:768px) {
+
+    /* UNIVERSAL SELECTOR */
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+/* BODY PART */
+
+    body{
+
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* STUDENT DSAHBOARD */
+
+    h2{
+        margin: 20px;
+        font-size: 40px;
+        /* color:aliceblue; */
+    }
+    
+/* TABLE CONTAINER */
+
+.table_container{
+    border: 4px solid #000000;
+    color: #f0f8ff;
+    background-color:#000000c9;
+    width: 700px;
+    height: 900px;
+    margin: 50px;
+}
+
+
+/* TABLE */
+
+table{
+    margin: 80px;
+    height: 700px;
+    width: 600px;
+    border-collapse: collapse;
+    /* font-size: 20px; */
+
+}
+
+table th,td{
+    font-size: 29px;
+    font-weight: 600;
+}
+
+table tr{
+    border: 1px solid #ffffff;
+   
+}
+
+/* PHONE */
+
+.phone{
+    display: none;
+}
+}

@@ -1,0 +1,163 @@
+/* UNIVERSAL SELECTOR */
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.border{
+    border: 3px solid #000000;
+    height: 600px;
+    margin: 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+.card{
+    color:#0683f8;
+}
+
+
+.banner_intro{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+
+.banner_intro p{
+    margin-top: 15px;
+}
+
+.bank_logo{
+    margin-top: 15px;
+
+}
+
+video{
+    position: relative;
+    left: 600px; 
+    bottom: 370px;
+    border: none;
+   }   
+
+   /***********************************************/
+   /************** DARK MODE SECTION **************/
+   /***********************************************/
+
+
+   .dark_mode{
+    position: relative;
+    bottom: 300px;
+    color: #ffffff;
+    background-color:#000000;
+    padding: 70px;
+    margin: 6px;
+    text-align: center;
+ 
+   }
+
+   .heading{
+    color:#2c0ddb;
+    font-size: 48px;
+    font-weight: 700;
+   }
+
+   ul{
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 20px;
+   }
+
+   .rewards_intro{
+    font-size: 25px;
+    font-weight: 700;
+   }
+
+   /***********************************************/
+   /************* FOR SMALL DEVICE ****************/
+   /***********************************************/
+
+
+   @media screen and (max-width:768px) {
+    
+/* UNIVERSAL SELECTOR */
+
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* DARK MODE */
+
+.dark_mode{
+    position: relative;
+    bottom: 300px;
+    color: #000000;
+    background-color:#ffffff;
+    padding: 70px;
+    margin: 6px;
+    text-align: center;
+    margin-top: 110px; 
+   }
+
+   /* BORDER */
+
+ .border{
+    border: 3px solid #000000;
+    height: 800px;
+    width: 500px;
+    position: relative;
+} 
+
+.banner_intro p{
+    margin-top: 15px;
+    display: none;
+}
+
+.bank_logo{
+    margin-top: 15px;
+    display: none;
+}
+
+.heading{
+    color:#2c0ddb;
+    font-size: 48px;
+    font-weight: 700;
+ }
+
+   ul{
+    margin-top: 45px;
+    line-height: 40px;
+    font-size: 40px;
+   }
+
+   .rewards_intro{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+   }
+
+video{
+    position: relative;
+    left: 15px; 
+    bottom: 300px;
+    border: none;
+ }   
+   }
